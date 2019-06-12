@@ -31,3 +31,4 @@ export default App;
 
 
 
+  background: linear-gradient(180deg,#3f3f3f,#2e2e2e);

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import './bg-animation.css';
 
 
 
@@ -46,7 +46,7 @@ stylesFor = {
           <form style={this.stylesFor}>
             <label>
               Rows:
-                <input type="number" onChange={this.myChangeHandler} style={this.stylesFor} />
+                <input type="number"  onChange={this.myChangeHandler} style={this.stylesFor} />
               Weight:
                 <input type="number" onChange={this.myChangeHandler} style={this.stylesFor}/>
             </label> 

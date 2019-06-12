@@ -4,7 +4,7 @@ body {
 }
 
 .App-header {
-  background: linear-gradient(360deg,#0078d2,#0048B3);
+  background: linear-gradient(360deg,#006aba,#0077d1);
   margin: 0 auto;
   max-width: 480px;
   min-height: 10vh;
@@ -17,7 +17,6 @@ body {
   box-shadow: #839FF7 0px -2px 100px;
 }
 .container {
-  background-color: #000000;
   min-height: 75vh;
   max-width: 480px;
     padding: 0 auto;
@@ -45,7 +44,7 @@ input, form {
 }
 select, option {
   margin: 0 auto;
-  background: #424242;
+  background: #0a0a0a;
   display: flex;
   flex-direction: row;
   align-items: center;
