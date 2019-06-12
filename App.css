@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(180deg,#4189F2,#0048B3) no-repeat center center fixed;;
+  padding: 1vh;
+}
+
+.App-header {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQYV2NkAIPF/xkYYhkZGBj+MyJzGBgYGEGiIPAfxAFJgpXBOCBtAH9cC6b686A9AAAAAElFTkSuQmCC
+    ) repeat;
+  margin: 0 auto;
+  max-width: 480px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  text-shadow: #A9A6AD 0px 0px 10px;
+  box-shadow: #839FF7 0px -2px 100px;
+}
+.container {
+  min-height: 75vh;
+  max-width: 480px;
+    padding: 0 auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  text-shadow: #A9A6AD 0px 0px 3px;
+  background: linear-gradient(180deg,#3f3f3f,#2e2e2e);
+  box-shadow: #839FF7 0px 2px 100px;
+}
+input, form {
+  
+  width: 200px;
+  margin: 3vh;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+}
+select, option {
+  margin: 0 auto;
+  background: #0a0a0a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(2px + 2.5vmin);
+  text-shadow: #A9A6AD 0px 0px 3px;
+}
+
+.outputBox {
+  width: 200px;
+  margin: 0vh;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+}
+
