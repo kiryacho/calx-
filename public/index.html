@@ -25,6 +25,14 @@
     <title>Coop Warehouse Salary Calculations</title>
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $('body').mousemove(function(e){
+          var moveX = (e.pageX * 1 / 25);
+          var moveY = (e.pageY * 1 / 25);
+          $(this).css('background-position', moveX  + 'px ' + moveY + 'px')
+        })
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
