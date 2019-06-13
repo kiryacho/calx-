@@ -32,7 +32,7 @@ stylesFor = {
       <div className="App">
         
         <header className="App-header">
-          <h1 style={{color: '#F2F2F7'}}> Coop CalX </h1>
+          <h2 style={{color: '#F2F2F7'}}> Coop Euro€ash</h2>
         </header>
         
         <div className="container">
@@ -41,6 +41,7 @@ stylesFor = {
             <option value="KYLM">KYLM</option>
             <option selected value="PUJU">PUJU</option>
             <option value="SYGAVKYLM">SYGAVKYLM</option>
+            <option value="LIHA">LIHA</option>
           </select>
           
           <form style={this.stylesFor}>
